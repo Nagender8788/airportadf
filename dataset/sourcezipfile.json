@@ -1,0 +1,22 @@
+{
+	"name": "sourcezipfile",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_AzureBlobStorageSource",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "zipsource"
+			},
+			"compression": {
+				"type": "ZipDeflate",
+				"level": "Optimal"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

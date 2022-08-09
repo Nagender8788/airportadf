@@ -1,0 +1,9 @@
+{
+	"name": "airportDataADF",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "c00c2a4a-5468-4b02-b837-356705283ed8",
+		"tenantId": "e17b8925-d51a-47d4-a33f-c4a1110de4b4"
+	}
+}
